@@ -1,0 +1,16 @@
+{
+  "name": "mtechno.in",
+  "version": "1.0.0",
+  "description": "personnal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Malaya Manjula",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0"
+  }
+}
