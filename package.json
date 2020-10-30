@@ -2,7 +2,7 @@
   "name": "mtechno.in",
   "version": "1.0.0",
   "description": "personnal website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test"
   },
