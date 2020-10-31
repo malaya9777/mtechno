@@ -4,7 +4,7 @@
   "description": "personnal website",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    
   },
   "author": "Malaya Manjula",
   "license": "ISC",
