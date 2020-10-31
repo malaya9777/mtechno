@@ -4,7 +4,7 @@
   "description": "personnal website",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon start",
+    "start": "nodemon server.js",
     "build": "netlify-lambda build express"
   },
   "author": "Malaya Manjula",
