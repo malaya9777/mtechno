@@ -6,9 +6,10 @@ const path = require('path');
 const router = express.Router();
 
 var app = express();
+app.use('/.netlify/functions/server', router);
 app.use(express.static(path.join(__dirname,'../public')));
 
-app.use('/.netlify/functions/server', router)
+
 app.get('*', function (req, res) {    
     res.sendFile(path.join(__dirname,'../public/index.html'));
 });
