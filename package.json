@@ -4,6 +4,8 @@
   "description": "personnal website",
   "main": "server.js",
   "scripts": {
+    "start":"npm start",
+    "build":"npm build"
     
   },
   "author": "Malaya Manjula",
