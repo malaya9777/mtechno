@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start":"npm start",
-    "build":"npm build"
+    "build":"npm run-script build"
     
   },
   "author": "Malaya Manjula",
