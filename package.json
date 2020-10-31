@@ -9,7 +9,8 @@
   },
   "author": "Malaya Manjula",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "express": "^4.17.1",
     "netlify-lambda": "^2.0.1",
     "nodemon": "^2.0.6",
