@@ -4,14 +4,15 @@
   "description": "personnal website",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon start",
-    "build": "netlify-lambda build express"    
+    "start": "nodemon start",
+    "build": "netlify-lambda build express"
   },
   "author": "Malaya Manjula",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "http": "0.0.1-security",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "serverless-http": "^2.6.0"
   }
 }

@@ -1,12 +1,5 @@
-var express = require('express');
+'use strict';
 
-var app = express();
-app.use(express.static(__dirname+'/public'));
+const app = require('./express/server');
 
-app.get('*', function (req, res) {    
-    res.sendFile(__dirname+'/public/index.html')
-});
-let envPort = 5000;
-app.listen(envPort);
-console.log(envPort)
-
+app.listen(3000, () => console.log('Local app listening on port 3000!'));
