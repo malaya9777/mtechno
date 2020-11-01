@@ -88,7 +88,7 @@ window.load = new function () {
             return r.path.toString().toLowerCase() === currentPath.toString().toLowerCase()
         })[0];
         if (route) {
-            //$('#content').load(route.file);
+            $('#content').load(route.file);
         } else {
             $('#content').load('error.html');
         }
