@@ -35,17 +35,17 @@ window.load = new function () {
         {
             path: '/',
             name: 'Home',
-            file: 'home.html'
+            file: 'items/home.html'
         },
         {
             path: '/about',
             name: 'About',
-            file: 'about.html'
+            file: 'items/about.html'
         },
         {
             path: '/contact',
             name: 'Contact',
-            file: 'contact.html'
+            file: 'items/contact.html'
         },
         {
             path: '/website',
