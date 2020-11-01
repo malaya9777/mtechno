@@ -82,7 +82,7 @@ window.load = new function () {
     var currentPath = window.location.pathname;
 
     if (currentPath == '/') {
-        $('#content').load('home.html')
+        $('#content').load('items/home.html')
     } else {
         var route = myRoute.routes.filter(function (r) {
             return r.path.toString().toLowerCase() === currentPath.toString().toLowerCase()
