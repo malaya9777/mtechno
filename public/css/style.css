@@ -391,7 +391,7 @@ tr.border-top td{
     width: 100%;
     display: grid;
     align-content: center;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 10px;
 }
 .clients::before{
@@ -409,7 +409,7 @@ tr.border-top td{
     color: #933671;
      
 }
-.sambalshreefashion, .jagratbharatnews{
+.sambalshreefashion, .jagratbharatnews, .odiaQuiz{
     height: 250px;
     width: 250px;
     background-size: contain;
@@ -429,6 +429,11 @@ tr.border-top td{
 .jagratbharatnews{    
     background-image: url('../assests/1.png');
     background-color: #011871;
+}
+.odiaQuiz{
+    background-image: url('../assests/OdiaQuiz_Logo.png');
+    background-color: #000000;
+    background-size: 90%;
 }
 
 @media (max-width:1000px){
