@@ -409,7 +409,7 @@ tr.border-top td{
     color: #933671;
      
 }
-.sambalshreefashion, .jagratbharatnews, .odiaQuiz{
+.sambalshreefashion, .upharonline, .odiaQuiz{
     height: 250px;
     width: 250px;
     background-size: contain;
@@ -426,8 +426,8 @@ tr.border-top td{
     background-image: url('../assests/logo-without-back.png');   
     background-color: #fdceff;
 }
-.jagratbharatnews{    
-    background-image: url('../assests/1.png');
+.upharonline{    
+    background-image: url('../assests/uphar.online.png');
     background-color: #011871;
 }
 .odiaQuiz{
