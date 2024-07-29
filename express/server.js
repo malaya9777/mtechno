@@ -1,11 +1,21 @@
 'use strict';
 const express = require('express');
 const path = require('path');
-const app = express();
+const router = express.Router();
 
 
-app.use(express.static(path.join(__dirname,'../public')));
-app.use('*', (req, res) => res.sendFile(path.join(__dirname, '../public/index.html')));
+router.use(express.static(path.join(__dirname,'../public')));
+router.use('/', async(req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'));
+    console.log('test')
 
-module.exports = app;
+});
+router.use('/bio', async(req, res)=>{
+    res.send('bio');
+    console.log('bio reached')
+
+})
+router.use('/contact', async(req, res)=>{res.send('contact')})
+
+module.exports = router;
 

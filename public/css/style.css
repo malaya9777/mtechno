@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
 
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-h4{
+
+h4 {
     margin: 0;
 }
 
-nav{
+nav {
     position: absolute;
     z-index: 2;
     max-width: 1080px;
@@ -21,80 +22,139 @@ nav{
     margin: auto;
     padding-top: 30px;
 }
-nav div.top-row{
+
+nav div.top-row {
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
     justify-items: center;
 }
 
-nav div ul{
+nav div ul {
     display: inline-flex;
     list-style-type: none;
     gap: 20px;
 }
-nav div ul li{
+
+nav div ul li {
     opacity: 50%;
 }
-nav div ul li.active{
+
+nav div ul li.active {
     opacity: 100% !important;
     border-bottom: 3px solid white;
     padding-bottom: 7px;
 }
-nav div ul li a{
+
+nav div ul li a {
     text-decoration: none;
     color: white;
 }
-main{
 
+main {
     z-index: 1;
     height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-article.home{    
+article.home {
     height: 100vh;
     width: 100%;
-    background: radial-gradient(#45D8FF,#002394);
+    background: radial-gradient(#45D8FF, #002394);
+    display: flex;
+    justify-items: center;
 }
-img.mandal{
+
+img.mandal {
     position: absolute;
-    height: 90vh;
-    top:10%;
+    width: 50vw;
+    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
     opacity: 12%;
     mix-blend-mode: hard-light;
     -webkit-animation: rotating 60s linear infinite;
-  -moz-animation: rotating 60s linear infinite;
-  -ms-animation: rotating 60s linear infinite;
-  -o-animation: rotating 60s linear infinite;
-  animation: rotating 60s linear infinite;
-    
+    -moz-animation: rotating 60s linear infinite;
+    -ms-animation: rotating 60s linear infinite;
+    -o-animation: rotating 60s linear infinite;
+    animation: rotating 60s linear infinite;
 }
-img.main-text{
-    top:30%;
+
+img.main-text {
+    width: 60vw;
+    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
     position: absolute;
 }
 
+.overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+div.navigation {
+    position: absolute;
+    right: 20px;
+    top: 45vh;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+span.nav-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    opacity: 50%;
+}
+
+span.nav-icon.active {
+    opacity: 100% !important;
+}
+
+div.scroll-down {
+    position: absolute;
+    z-index: 3;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.scroll-down span {
+    color: white;
+    opacity: 80%;
+}
+
+
+
+
+
 @keyframes rotating {
     from {
-      -ms-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      -ms-transform: rotate(360deg);
-      -moz-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
