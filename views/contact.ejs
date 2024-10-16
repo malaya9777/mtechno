@@ -1,0 +1,24 @@
+<main>
+    <article class="contact">
+        <form name="contact" netlify>
+            <div class="form-input">                
+                <input type="text" required name="name" class="input" id="" onfocus="checkLabel(this, 'labelName')" onblur="checkLabel2(this,'labelName')">
+                <label for="name" id="labelName">Name</label>
+            </div>
+            <div class="form-input">                
+                <input type="email" required name="email" class="input" id="" onfocus="checkLabel(this, 'labelEmail')" onblur="checkLabel2(this,'labelEmail')">
+                <label for="email" id="labelEmail">Email</label>
+            </div>
+            <div class="form-input">                
+                <input type="tel" required name="phone" class="input" id="" onfocus="checkLabel(this, 'labelPhone')" onblur="checkLabel2(this,'labelPhone')">
+                <label for="phone" id="labelPhone">Phone</label>
+            </div>
+            <div class="form-input">                
+                <textarea name="description" required id="" onfocus="checkLabel(this, 'labelDescription')" onblur="checkLabel2(this,'labelDescription')">
+                </textarea>
+                <label for="description" id="labelDescription">Requirement</label>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </article>
+</main>
