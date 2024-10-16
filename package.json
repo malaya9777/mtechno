@@ -4,7 +4,7 @@
   "description": "mtechno.in official website of mtechno",
   "main": "express/server.js",
   "scripts": {
-    "build": "build server-local",
+    "build": "build server-local.js",
     "start": "nodemon server-local.js"
   },
   "author": "malaya_manjula",
