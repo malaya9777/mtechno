@@ -5,7 +5,8 @@
   "main": "./server-local.js",
   "scripts": {
     "build": "build server-local.js",
-    "start": "nodemon server-local.js"
+    "start": "node server-local.js",
+    "debug":"nodemon server-local.js"
   },
   "author": "malaya_manjula",
   "devDependencies": {
