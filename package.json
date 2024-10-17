@@ -10,9 +10,9 @@
   "author": "malaya_manjula",
   "devDependencies": {
     "express": "^4.21.1",
-    "netlify-lambda": "^1.6.3",
-    "nodemon": "^2.0.20",
-    "serverless-http": "^2.3.0"
+    "netlify-lambda": "^0.4.0",
+    "nodemon": "^3.1.7",
+    "serverless-http": "^2.7.0"
   },
   "dependencies": {
     "ejs": "^3.1.10",
