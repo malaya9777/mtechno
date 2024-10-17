@@ -4,15 +4,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 200
-
-  [[redirects]]
-  from = "/bio"
-  to = "/bio.html"
-  status = 200
-
-   [[redirects]]
-  from = "/contact"
-  to = "/contact.html"
+  to = "/"
   status = 200
